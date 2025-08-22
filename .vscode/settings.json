@@ -1,0 +1,12 @@
+{
+    "git.showUntrackedFiles": true,
+    "python.defaultInterpreterPath": "${workspaceFolder}/venv/bin/python",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/venv": true
+    }
+}
+
+
+

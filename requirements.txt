@@ -1,4 +1,10 @@
 
 # Python, VS Code, and Git need to be installed manually.
-# To install the recommended VS Code extensions, run:
+
+# Python packages can be listed here if needed, e.g.:
+# numpy==1.26.0
+# pandas==2.1.0
+# matplotlib
+
+# VS Code extensions are installed with:
 # ./install_extensions.ps1

@@ -30,9 +30,9 @@ def text_analysis():
     """
     Ask the user for a block of text.
     Count and display:
-        - Number of letters
-        - Number of words
-        - Number of sentences
+        - Number of letters (only count a-zA-Z)
+        - Number of words   (use split())
+        - Number of sentences (., ?, !) 
     """
     # TODO: Get user input
     text = input("Enter some text: ")

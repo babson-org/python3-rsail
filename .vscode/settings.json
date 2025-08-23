@@ -5,7 +5,11 @@
     "files.exclude": {
         "**/__pycache__": true,
         "**/*.pyc": true,
-        "**/venv": true
+        "**/venv": true,
+        "**/.devcontainer": true,
+        "**/.history": true, 
+        "**/.vscode": true,
+        "**/.git": true,
     }
 }
 

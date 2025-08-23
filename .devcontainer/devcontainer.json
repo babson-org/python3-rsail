@@ -30,7 +30,7 @@
             }
         }
     },    
-    "postCreateCommand": "python -m venv venv && . venv/bin/activate && python -m pip install --upgrade pip && pip install -r requirements.txt && git config --global pull.rebase false"
+    "postCreateCommand": "python -m venv venv && . venv/bin/activate && python -m pip install --upgrade pip && pip install -r requirements.txt"
 
 }
 

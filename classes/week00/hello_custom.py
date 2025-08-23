@@ -20,6 +20,8 @@ you may print multiple items seperated by commas.  This will add a space between
 
 e.g. print('my age is', 5)
 
+-> my age is 5
+
 By default the print() function will add a new line at the end.  It adds '\n' which
 is the control character for a new line.  You may control this by setting the end parameter.
 
@@ -44,6 +46,6 @@ age = input('please enter your age : ')
 
 if now try: age = age + 1 we get an error becauseage is a numeral (text) and you can  not add a number to text.
 
-Figure out on your own how top convert an numeral to an integer or a float.  Whay happens if you try to convert
+Figure out on your own how to convert an numeral to an integer or a float.  Whay happens if you try to convert
 a string to a number.  e.g. txt = 'Hello'  -> try to convert txt to an integer or float
 '''

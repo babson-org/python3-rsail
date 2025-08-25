@@ -34,8 +34,9 @@
 
   "remoteUser": "vscode",
 
-  "postCreateCommand": "bash ./setup.sh",
-  "postStartCommand": "[ -d venv ] || bash ./setup.sh",
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "postStartCommand": "[ -d venv ] || bash .devcontainer/setup.sh",
+
 
   "containerEnv": {
     "PIP_DISABLE_PIP_VERSION_CHECK": "1"

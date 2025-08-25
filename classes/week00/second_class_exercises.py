@@ -41,17 +41,18 @@ result: tttt
 # suppose we had a list of n elements. create a new list that
   shifts the elements by 3
 
-  myList = ['apple', 'orange', 'pear', 'blueberry', 'peach']
-  shifted_list = ['pear', 'blueberry', 'peach', 'apple', 'orange']
+    myList = ['apple', 'orange', 'pear', 'blueberry', 'peach']
+      shifted_list = ['pear', 'blueberry', 'peach', 'apple', 'orange']
 
-  Hints:
-     1) use len(), %, enumerate
-     2) also assign shifted_list = [None] * length  (you'll need to determine 
-        the length variable)
-     3) shift inside the for loop
-     4) print out the printed list outside the for loop
-'''
+        Hints:
+             1) use len(), %, enumerate
+                  2) also assign shifted_list = [None] * length  (you'll need to determine 
+                          the length variable)
+                               3) shift inside the for loop
+                                    4) print out the printed list outside the for loop
+                                    '''
 
 
 
-# %%
+                                    # %%
+                                    

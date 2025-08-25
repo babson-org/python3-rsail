@@ -1,38 +1,37 @@
 {
-    "name": "Python Dev Environment",
-    "image": "mcr.microsoft.com/devcontainers/python:3.10",
-    "features": {
-        "github-cli": "latest",
-        "ghcr.io/devcontainers/features/powershell:1": {}
-    },
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "bierner.emojisense",
-                "michaelCurrin.auto-commit-msg",
-                "ms-vsliveshare.vsliveshare",
-                "ms-python.black-formatter",
-                "github.codespaces",
-                "github.vscode-pull-request-github",
-                "github.github-vscode-theme",
-                "ms-toolsai.jupyter",
-                "esbenp.prettier-vscode",
-                "ms-python.python",
-                "ms-python.debugpy",
-                "ericsia.pythonsnippets3",
-                "ms-vscode.remote-repositories",
-                "emmanuelbeziat.vscode-great-icons",
-                "ms-vscode.powershell",
-                "formulahendry.code-runner",
-                "mathematic.vscode-pdf",
-                "ritwickdey.liveserve"
-            ],
-            "settings": {                
-                "python.terminal.activateEnvironment": true
-            }
-        }
-    },    
-    "postCreateCommand": "python -m venv venv && . venv/bin/activate && python -m pip install --upgrade pip && pip install -r requirements.txt"
-
+  "name": "Python Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "features": {
+    "github-cli": "latest"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bierner.emojisense",
+        "michaelCurrin.auto-commit-msg",
+        "ms-vsliveshare.vsliveshare",
+        "ms-python.black-formatter",
+        "github.codespaces",
+        "github.vscode-pull-request-github",
+        "github.github-vscode-theme",
+        "ms-toolsai.jupyter",
+        "esbenp.prettier-vscode",
+        "ms-python.python",
+        "ms-python.debugpy",
+        "ericsia.pythonsnippets3",
+        "ms-vscode.remote-repositories",
+        "emmanuelbeziat.vscode-great-icons",
+        "formulahendry.code-runner",
+        "mathematic.vscode-pdf",
+        "ritwickdey.liveserve"
+      ],
+      "settings": {
+        "python.terminal.activateEnvironment": true,
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+  "postCreateCommand": "./setup.sh"
 }
+
 

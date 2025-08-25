@@ -24,7 +24,8 @@
                 "emmanuelbeziat.vscode-great-icons",
                 "ms-vscode.powershell",
                 "formulahendry.code-runner",
-                "mathematic.vscode-pdf"
+                "mathematic.vscode-pdf",
+                "ritwickdey.liveserve"
             ],
             "settings": {                
                 "python.terminal.activateEnvironment": true

@@ -23,7 +23,8 @@
                 "ms-vscode.remote-repositories",
                 "emmanuelbeziat.vscode-great-icons",
                 "ms-vscode.powershell",
-                "formulahendry.code-runner"
+                "formulahendry.code-runner",
+                "mathematic.vscode-pdf"
             ],
             "settings": {                
                 "python.terminal.activateEnvironment": true

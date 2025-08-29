@@ -1,25 +1,3 @@
-# ==============================
-# Main Program
-# ==============================
-def main():
-    while True:
-        print("Lab 1 - Python Basics")
-        print("1. Draw Diamond")
-        print("2. Text Analysis")
-        print("3. Caesar Cipher")
-        choice = input("Select part to run (1-3): ")
-        
-        if choice == "1":
-            draw_diamond()
-        elif choice == "2":
-            text_analysis()
-        elif choice == "3":
-            caesar_cipher()
-        else:
-            exit()
-
-
-
 """
 Lab 1 – Python Basics
 Author: <Your Name>
@@ -34,9 +12,6 @@ def draw_diamond():
     Ask the user for an odd number for the diamond height
     and print a symmetric diamond of that height.
     """
-    
-    print("you have some work todo!, draw_diamond")
-
     # TODO: Prompt user for an odd number
     height = int(input("Enter an odd number for the diamond height: "))
 
@@ -59,9 +34,6 @@ def text_analysis():
         - Number of words   (use split())
         - Number of sentences (., ?, !) 
     """
-
-    print("you have some work todo!, text_analysis")
-
     # TODO: Get user input
     text = input("Enter some text: ")
 
@@ -89,9 +61,6 @@ def caesar_cipher():
     Ask the user for text and a shift value.
     Provide options to encrypt or decrypt the text using a Caesar cipher.
     """
-
-    print("you have some work todo!, caesar_cypher")
-
     # TODO: Get user input text
     text = input("Enter text: ")
 
@@ -111,7 +80,25 @@ def caesar_cipher():
 # caesar_cipher()
 
 
-
+# ==============================
+# Main Program
+# ==============================
+def main():
+    while True:
+        print("Lab 1 - Python Basics")
+        print("1. Draw Diamond")
+        print("2. Text Analysis")
+        print("3. Caesar Cipher")
+        choice = input("Select part to run (1-3): ")
+        
+        if choice == "1":
+            draw_diamond()
+        elif choice == "2":
+            text_analysis()
+        elif choice == "3":
+            caesar_cipher()
+        else:
+            exit()
 
 if __name__ == "__main__":
     main()

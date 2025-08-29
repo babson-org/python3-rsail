@@ -5,7 +5,6 @@ when you run a python script __name__ is set to the text string "__main__"
 When __name__ = "__main__" you know that your code is running
 '''
 import utils as ut
-import basic as bs
 
 
 
@@ -71,8 +70,7 @@ if __name__ == '__main__':
 x=input('\nprogram 3\n')
 #%%
 
-import utils as ut
-import basic_update as bs
+
 def myProgram():
 
     ut.clear_screen()
@@ -98,7 +96,7 @@ def myProgram():
 
 def start():
     print('starting')
-    bs.run_basic()
+    import basic
     
 
 def stop():
